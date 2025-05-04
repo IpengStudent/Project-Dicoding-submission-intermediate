@@ -360,5 +360,5 @@ class NoteList extends HTMLElement {
   
 }
 // Daftarkan custom element
-
+//terattab
 customElements.define("note-list", NoteList);
