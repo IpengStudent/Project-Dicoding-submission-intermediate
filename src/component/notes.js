@@ -364,3 +364,5 @@ class NoteList extends HTMLElement {
 //ygfsgs
 customElements.define("note-list", NoteList);
 //gssrgrsrtr
+// Import dan gunakan custom element di file HTML
+//yududm
