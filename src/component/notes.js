@@ -361,4 +361,5 @@ class NoteList extends HTMLElement {
 }
 // Daftarkan custom element
 //terattab
+//ygfsgs
 customElements.define("note-list", NoteList);
