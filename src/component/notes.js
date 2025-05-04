@@ -10,6 +10,7 @@ class NoteList extends HTMLElement {
     };
   }
 
+
   async connectedCallback() {
     await this.fetchNotes();
     document.addEventListener("noteUpdated", () => this.fetchNotes());
@@ -358,5 +359,10 @@ class NoteList extends HTMLElement {
 
   
 }
-
+// Daftarkan custom element
+//terattab
+//ygfsgs
 customElements.define("note-list", NoteList);
+//gssrgrsrtr
+// Import dan gunakan custom element di file HTML
+//yududm
