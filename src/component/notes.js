@@ -10,6 +10,7 @@ class NoteList extends HTMLElement {
     };
   }
 
+
   async connectedCallback() {
     await this.fetchNotes();
     document.addEventListener("noteUpdated", () => this.fetchNotes());
@@ -358,5 +359,6 @@ class NoteList extends HTMLElement {
 
   
 }
+// Daftarkan custom element
 
 customElements.define("note-list", NoteList);
